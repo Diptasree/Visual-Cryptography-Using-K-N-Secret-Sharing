@@ -3,7 +3,7 @@
 
 %Output :- An image named 'output.png' that is made using given k shares
 %          and is encrypted
-function [] = kn_encrypt(k);
+function [] = kn_decrypt(k);
 im1 = imread('share1.png');
 
 [im_width, im_height, channels] = size(im1);
